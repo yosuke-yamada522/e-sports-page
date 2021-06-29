@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Let's e-sports</title>
+        <meta name="description" content="eスポーツ紹介ページ">
+        
+        <link rel="icon" type="image/favicon.png" href="image/favicon.png" sizes="16x16">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+	<div id="top">
+        <header>
+		<h1 class="logo-sm"><a href="#top"><img src="image/logo.png" alt="logo.png"></a></h1>
+	
+		<div id="drawer_toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
+		<nav id="global_nav">
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#history">History</a></li>
+				<li><a href="#genre">Genre</a></li>
+			</ul>
+		</nav>
+		
+		</header>
+		<div class="top_img">
+			<img src="image/top.jpg" alt="top">
+			<h2 class="top_h2">Let's PLAY!</h2>
+		</div>	
+	</div>
+	<!-- e-sportsについて -->
+	<div class="about">
+		<div id="about">
+		    <h2>e-sportsとは</h2>
+		    <div class="scrollanime downup">
+		    	<div class="about_contents">
+			        <img src="image/about-image.jpg" alt="about-image">
+			    </div>
+			</div>
+			<div class="scrollanime downup">
+				<div class="about_box">
+			    	<p>e-sportsとはエレクトロニック・スポーツ(electronic sports)の略称で、コンピューターゲームやビデオゲームを利用したスポーツ競技のことを指します。</p>
+			    </div>
+			</div>
+			<div class="scrollanime downup">
+			    <div class="about_contents2">
+			        <img src="image/about-image2.jpg" alt="about-image2">
+			    </div>
+			</div>
+			<div class="scrollanime downup">
+			    <div class="about_box2">
+			    	<p>国内のeスポーツ市場は徐々に拡大しており、2019年の市場規模は前年比127パーセントの61.2億になり、今後も成長が見込まれています。</p>
+			   </div>
+		   </div>
+		</div>
+	</div>
+	<!-- e-sportsの歴史 -->
+	<div class="history">
+		<div id="history">
+		    <h2>e-sportsの歴史</h2>
+		    <p>
+		    	コンピューターゲームを利用した大会は40年以上前から開催されており、実は歴史があります。プロゲーマーが誕生されたのは24年前とされており、日本人初プロゲーマーが誕生してから日本でもe-sportsが認知されつつあります。</p>
+		    <div class="history_box">
+		    	<ul>
+		    		<li>1974年:セガTVゲーム機全国コンテスト開催</li>
+		    		<li>1980年:スペースインベーダー選手権開催</li>
+		    		<li>1990年:任天堂ワールドチャンピオンシップ開催</li>
+		    		<li>1996年:Evolution Championship Series (EVO)設立、開催</li>
+		    		<li>1997年:サイバーアスリート・プロフェッショナル・リーグ設立</li>
+		    		<li>2010年:日本人初のプロゲーマー誕生</li>
+		    		<li>2018年:埼玉県さいたま市でシルバーeスポーツ協会発足</li>
+		    		<li>2021年:IOCがeスポーツの公式大会を開催すること発表</li>
+		    	</ul>
+		    </div>
+		</div>
+	</div>
+	<!-- e-sportsの競技ジャンル -->
+	<div id="genre">
+	    <h2>競技ジャンル</h2>
+	    <p class="description">
+	    	ゲームのジャンル別にe-sportsでプレイされているゲームを見ていきましょう<br>
+	    	あなたがプレイしているゲームがあるかもしれません
+	    </p>
+	    <div id="carousel">
+		    <carousel>
+		      <slide>
+		      	<span class="label">
+		      		<div class="genre_box">
+		      			<h3>FPS(ファーストパーソンシューティング)</h3>
+		      			<p>第一者視点で、プレイヤーの意思で移動し、武器を使ったり素手などで戦う、シューティングゲームです</p>
+		      			<ul>
+		      				<li>コール オブ デューティシリーズ</li>
+		      				<li>オーバーウォッチ</li>
+		      				<li>バトルフィールドなど</li>
+		      			</ul>
+		      		</div>
+		      	</span>
+		      </slide>
+		      <slide>
+		      	<span class="label">
+		      		<div class="genre_box">
+		      			<h3>TPS（サードパーソンシューティング）</h3>
+		      			<p>第三者視点で、プレイヤーの意思で移動し、武器を使ったり素手などで戦う、シューティングゲームです</p>
+		      			<ul>
+		      				<li>フォートナイト</li>
+		      				<li>荒野行動</li>
+		      				<li>スプラトゥーンなど</li>
+		      			</ul>
+		      		</div>	
+		      	</span>
+		      </slide>
+		      <slide>
+		      	<span class="label">
+		      		<div class="genre_box">
+		      			<h3>格闘ゲーム</h3>
+		      			<p>プレイヤー同士が操作するキャラクターが、主に1対1の格闘技等で戦う対戦型ゲームです</p>
+		      			<ul>
+		      				<li>ストリートファイターシリーズ</li>
+		      				<li>バーチャファイターシリーズ</li>
+		      				<li>大乱闘スマッシュブラザーズシリーズなど</li>
+		      			</ul>
+		      		</div>	
+		      	</span>
+		      </slide>
+		      <slide>
+		      	<span class="label">
+		      		<div class="genre_box">
+		      			<h3>スポーツゲーム</h3>
+		      			<p>バスケットボールやサッカーなどスポーツを題材としたシミュレーションゲームです</p>
+		      			<ul>
+		      				<li>NBAシリーズ</li>
+		      				<li>FIFAシリーズ</li>
+		      				<li>ウイニングイレブンシリーズなど</li>
+		      			</ul>
+		      		</div>	
+		      	</span>
+		      </slide>
+		      <slide>
+		      	<span class="label">
+		      		<div class="genre_box">
+		      			<h3>パズルゲーム</h3>
+		      			<p>次々に落ちてくるパズルを組み合わせ、積み上げられたパズルが画面いっぱいになってしまう前に消していくゲームです</p>
+		      			<ul>
+		      				<li>テトリスシリーズ</li>
+		      				<li>ぷよぷよシリーズ</li>
+		      			</ul>
+		      		</div>	
+		      	</span>
+		      </slide>
+		      <slide>
+		      	<span class="label">
+		      		<div class="genre_box">
+		      			<h3>トレーディングカードゲーム</h3>
+		      			<p>対戦形式の2人プレイのデジタルカードゲームでカードでデッキを作成し、そのデッキで対戦します</p>
+		      			<ul>
+		      				<li>Hearthstone: ハースストーン</li>
+		      				<li>シャドウバース</li>
+		      			</ul>
+		      		</div>	
+		      	</span>
+		      </slide>
+		    </carousel>	
+	    </div>
+		<div class="genre_box_sp">
+  			<h3>FPS(ファーストパーソンシューティング)</h3>
+  			<p>第一者視点で、プレイヤーの意思で移動し、武器を使ったり素手などで戦う、シューティングゲームです</p>
+  			<ul>
+  				<li>コール オブ デューティシリーズ</li>
+  				<li>オーバーウォッチ</li>
+  				<li>バトルフィールドなど</li>
+  			</ul>
+  		</div>
+      		<div class="genre_box_sp">
+      			<h3>TPS（サードパーソンシューティング）</h3>
+      			<p>第三者視点で、プレイヤーの意思で移動し、武器を使ったり素手などで戦う、シューティングゲームです</p>
+      			<ul>
+      				<li>フォートナイト</li>
+      				<li>荒野行動</li>
+      				<li>スプラトゥーンなど</li>
+      			</ul>
+      		</div>	
+      		<div class="genre_box_sp">
+      			<h3>格闘ゲーム</h3>
+      			<p>プレイヤー同士が操作するキャラクターが、主に1対1の格闘技等で戦う対戦型ゲームです</p>
+      			<ul>
+      				<li>ストリートファイターシリーズ</li>
+      				<li>バーチャファイターシリーズ</li>
+      				<li>大乱闘スマッシュブラザーズシリーズなど</li>
+      			</ul>
+      		</div>	
+      		<div class="genre_box_sp">
+      			<h3>スポーツゲーム</h3>
+      			<p>バスケットボールやサッカーなどスポーツを題材としたシミュレーションゲームです</p>
+      			<ul>
+      				<li>NBAシリーズ</li>
+      				<li>FIFAシリーズ</li>
+      				<li>ウイニングイレブンシリーズなど</li>
+      			</ul>
+      		</div>	
+      		<div class="genre_box_sp">
+      			<h3>パズルゲーム</h3>
+      			<p>次々に落ちてくるパズルを組み合わせ、積み上げられたパズルが画面いっぱいになってしまう前に消していくゲームです</p>
+      			<ul>
+      				<li>テトリスシリーズ</li>
+      				<li>ぷよぷよシリーズ</li>
+      			</ul>
+      		</div>	
+      		<div class="genre_box_sp">
+      			<h3>トレーディングカードゲーム</h3>
+      			<p>対戦形式の2人プレイのデジタルカードゲームでカードでデッキを作成し、そのデッキで対戦します</p>
+      			<ul>
+      				<li>Hearthstone: ハースストーン</li>
+      				<li>シャドウバース</li>
+      			</ul>
+      		</div>	
+      	</span>
+	</div>
+	<div class="summarize">
+		<div class="scrollanime downup">
+			<h2>Let's liven up e-sports!!!</h2>
+			<img src="image/summarize.jpg" alt="summarize">
+			<p>日本ではまだ認知が浅いe-sportsですが今後の発展のために盛り上げていきましょう！<br>
+			   プロゲーマーだけではなく観客やイベント運営・マネージャーなど様々な立場からe-sportsを楽しんでいきましょう！
+			</p>
+		</div>
+	</div>
+		<a href="#top" class="back-to-top">▲</a>
+	
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://ssense.github.io/vue-carousel/js/vue-carousel.min.js"></script>
+	<script src="js/main.js"></script>
+    </body>
+    
+
+
+</html>
